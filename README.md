@@ -11,7 +11,7 @@ This method asks for a success callback function which returns the coordinates a
 
 to use, simply call the plugin function. E.g.
 
-´´´
+```
 function successCallbackFunc(msg) {
 	alert("Your coords are: " + msg)
 }
@@ -22,4 +22,4 @@ function failureCallbackFunc(msg) {
 function getLocation() {
 	locationPlugin.getLocation(successCallbackFunc,failureCallbackFunc)
 }
-´´´
+```
